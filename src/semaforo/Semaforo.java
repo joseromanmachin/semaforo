@@ -5,7 +5,10 @@
  */
 package semaforo;
 
+import java.awt.event.ActionListener;
+import java.util.TimerTask;
 import javax.swing.JFrame;
+import javax.swing.Timer;
 
 /**
  *
@@ -20,6 +23,8 @@ public class Semaforo {
         Semaforo_Ventana ventana = new Semaforo_Ventana();
         ventana.setVisible(true);
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+  
         
     }
     
